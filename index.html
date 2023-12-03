@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Recipe Website</title>
+</head>
+<body>
+
+<nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li class="dropdown">
+                <a href="#recipes">Recipes</a>
+                <div class="dropdown-content">
+                    <a href="#appetizers">Appetizers</a>
+                    <a href="#mains">Mains</a>
+                    <a href="#desserts">Desserts</a>
+                </div>
+            </li>
+            <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Welcome to Our Recipe Website</h1>
+        <p>Explore a variety of delicious recipes!</p>
+    </header>
+
+    <section id="catalog-container">
+        <h2>Explore Our Collection</h2>
+
+        <div class="recipe-card">
+            <img src="recipe1.jpg" alt="Recipe 1">
+            <div class="recipe-card-content">
+	                <h3><a href="recipe1.html">Spaghetti Carbonara</a></h3>
+                <p>Spaghetti carbonara is an Italian pasta dish consisting of spaghetti, bacon, a creamy sauce made from eggs, and grated cheese, typically Pecorino Romano or Parmesan. The dish is known for its simplicity and rich, indulgent flavor. The sauce is made by tossing hot pasta with a mixture of raw beaten eggs, which are then cooked by the heat of the pasta, creating a creamy texture. The dish is finished with crispy bits of bacon or pancetta and a generous amount of freshly ground black pepper. It is important to note that the classic recipe contains no butter, cream, or garlic</p>
+            </div>
+        </div>
+
+        <div class="recipe-card">
+            <img src="recipe2.jpeg" alt="Recipe 2">
+            <div class="recipe-card-content">
+                <h3><a href="recipe2.html">Chicken Alfredo</a></h3>
+                <p>Chicken Alfredo is a classic Italian pasta dish that consists of fettuccine pasta, a creamy white sauce, and tender pieces of chicken. The sauce is typically made with heavy cream, butter, garlic, and grated Parmesan cheese. The chicken is usually seasoned with salt and pepper and cooked in a skillet with garlic until it is fully cooked. The cooked pasta is then tossed with the sauce and chicken, and the dish is often garnished with parsley or additional Parmesan cheese. Chicken Alfredo is a rich and indulgent dish that is perfect for a special occasion or a comforting meal at home. It is often served with a side of steamed or roasted vegetables to balance out the richness of the dish.</p>
+            </div>
+        </div>
+        <div class="recipe-card">
+            <img src="recipe3.jpeg" alt="Recipe 3">
+            <div class="recipe-card-content">
+                <h3><a href="recipe3.html">Chocolate Lava Cake</a></h3>
+                <p>Chocolate lava cake is a small, individual-sized cake with a slightly undercooked center, resulting in a gooey, melty, and decadent treat that oozes out when cut into. It is a popular dessert, perfect for special occasions or a regular weekend, and is known for its rich, indulgent chocolate flavor. The cake is typically made with ingredients such as high-quality chocolate, butter, eggs, sugar, and flour. It is often served with toppings such as ice cream, whipped cream, or fresh fruit.</p>
+            </div>
+        </div>
+        <div class="recipe-card">
+            <img src="recipe4.jpeg" alt="Recipe 4">
+            <div class="recipe-card-content">
+                <h3><a href="recipe4.html">Greek Salad</a></h3>
+                <p>Greek salad is a fresh and healthy salad that originates from Greece. It typically consists of sliced cucumbers, tomatoes, red onion, bell peppers, and Kalamata olives, topped with crumbled feta cheese and dressed with olive oil and red wine vinegar. The salad is often seasoned with dried oregano and salt and pepper to taste. The ingredients are usually cut into bite-sized pieces and arranged on a plate or bowl. Greek salad is a perfect side dish for grilled meats or fish, or it can be enjoyed as a light and refreshing meal on its own.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <p>Leave your feedback or ask questions about specific recipes:</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+</body>
+</html>
